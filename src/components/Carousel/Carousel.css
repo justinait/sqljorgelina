@@ -1,0 +1,43 @@
+/* .carouselItem {
+    height: fit-content;
+} */
+
+.w-100 {
+    width: unset;
+    height: 100vh;
+}
+.carouselMobile {
+    display: block;
+}
+
+.carouselDesktop {
+    display: none;
+}
+
+.carouselTablet {
+    display: none;
+}
+
+.carousel {
+    margin-top: -80px;
+}
+
+@media (min-width: 476px) {
+    .carouselTablet {        
+        display: block;
+    }
+    
+    .carouselMobile {
+        display: none;
+    }
+}
+
+@media (min-width: 776px) {
+    .carouselDesktop {        
+        display: block;
+    }
+    
+    .carouselTablet {
+        display: none;
+    }
+}
